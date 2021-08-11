@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>STEAM Camp 2021</title>
+    <title>STEAM Camp 2021 - About</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../style.css">
@@ -10,6 +10,10 @@
 <style>
     body {
         font-family: "Times New Roman", Georgia, Serif;
+    }
+
+    h2 {
+        margin-top: 5%;
     }
 
     h1,
@@ -21,38 +25,72 @@
         font-family: "Playfair Display";
         letter-spacing: 5px;
     }
+
+    header {
+        background-image: url("../images/JennRavennaTranPhotography\ \(112\).jpg");
+        background-position: 0%;
+        height: 360px;
+        background-size: 100%;
+        text-align: center;
+    }
+
+    div.inline {
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 </style>
 
 <body>
-
-    <!-- Navbar (sit on top) -->
-    <div class="w3-top">
-        <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 2px;">
-            <a href="index.html" class="w3-bar-item w3-button">STEAM Camp 2021</a>
-            <div class="w3-right w3-hide-small">
-                <a href="resources.html" class="w3-bar-item w3-button">Curriculumn/Resources</a>
-                <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <header>
+        <!-- Navbar (sit on top) -->
+        <div class="w3-top">
+            <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 2px;">
+                <a href="index.html" class="w3-bar-item w3-button">STEAM Camp 2021</a>
+                <div class="w3-right w3-hide-small">
+                    <a href="resources.html" class="w3-bar-item w3-button">Curriculumn/Resources</a>
+                    <a href="about.html" class="w3-bar-item w3-button">About</a>
+                </div>
             </div>
         </div>
-    </div>
-
-    <!-- Header -->
-    <header class="w3-display-container w3-content wide" sytle="max-width:1600px; min-width:500px" id="home">
-        <img class="w3-image" src="/images/JennRavennaTranPhotography (112).jpg" alt="Background Image" width="1600"
-            height="800">
-        <div class="w3-display-bottomleft w3-padding-large w3-opacity">
-            <h1 class="w3-xxlarge">STEAM Camp</h1>
+        <div class="inline">
+            <h1>STEAM Camp</h1>
         </div>
     </header>
+    <main>
+        <section id="why_steam">
+            <h2 class="section_header">
+                Why STEAM
+            </h2>
+            <p>
+                STEAM (Science, Technology, Engineering, Art, Math) emphasizes the bridge between scientific-based
+                thinking
+                and creative implementation. Art has been shown to improve innovation and overall cognitive development
+                in children.
+            </p>
+        </section>
+        <section id="our_project">
+            <h2 class="section_header">
+                Our Project
+            </h2>
+            <p>We are a group of girls who's goal is to aim for spreading awareness in not just STEM, but STEAM. We want
+                to
+                inspire youth to go beyond the boundaries of pure logical or analytical thinking and mix in their
+                creative
+                talents. To do this, we hosted week-long STEAM camps for elementary and middle school-aged students to
+                engage in various hands-on projects. This website serves as a resource for thoses who are interested in
+                incorporating STEAM ideas
+                into their
+                programs
+                and activites.
+            </p>
+        </section>
 
-    <!-- Page Content -->
-    <div class="w3-content" style="max-width: 1100px;">
-        <!-- About or Description about the Camp Section -->
-        <div class="w3-col m6 w3-padding-large w3-hide-small">
-            <img src="/images/JennRavennaTranPhotography (113).jpg" class="w3-round w3-image w3-opacity-min"
-                alt="Template Image" width="600" height="750">
-        </div>
-    </div>
+    </main>
+
+
 </body>
 
 </html>
