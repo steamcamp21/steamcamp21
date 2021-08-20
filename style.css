@@ -224,6 +224,16 @@ p {
     text-align: center;
 }
 
+div.inline {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: initial;
+    padding-left: 2%;
+    padding-top: 30%;
+}
+
 .w3-serif {
     font-family: serif
 }
@@ -519,10 +529,9 @@ a {
 
 .w3-bar .w3-bar-item {
     padding: 8px 16px;
-    float: left;
     width: auto;
     border: none;
-    display: block;
+    display: inline-block;
     outline: 0
 }
 

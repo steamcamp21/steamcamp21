@@ -24,17 +24,12 @@
 
   header {
     background-image: url("../images/rescources_bkgrd.jpg");
-    height: 380px;
+    background-position: 0%;
+    padding-right: 30px;
+    background-repeat: no-repeat;
+    height: 480px;
     background-size: 100%;
     text-align: center;
-  }
-
-  div.inline {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
   }
 
   figure {
@@ -57,6 +52,24 @@
   figure figcaption {
     text-align: center;
   }
+
+  header .w3-button{
+        text-transform: uppercase;
+        margin-top: 50px;
+        display: inline-block;
+    }
+
+  header .logo{
+        background-image: url("../images/STEAM_logo.png");
+        background-size: 300px;
+        width: 300px;
+        height: 100px;
+        display: inline-block;
+        position: relative;
+        text-indent: -9999999px;
+        background-repeat: no-repeat;
+        margin-top: 0%;
+    }
 </style>
 
 <body>
@@ -64,16 +77,14 @@
     <!-- Navbar (sit on top) -->
     <div class="w3-top">
       <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing: 2px;">
-        <a href="index.html" class="w3-bar-item w3-button">STEAM Camp 2021</a>
-        <div class="w3-right w3-hide-small">
-          <a href="resources.html" class="w3-bar-item w3-button">Curriculumn/Resources</a>
-          <a href="about.html" class="w3-bar-item w3-button">About</a>
-        </div>
+          <a href="resources.html" class="w3-bar-item w3-button">Curriculum</a>
+          <a href="index.html" class="logo">STEAM Camp 2021</a>
+          <a href="about.html" class="w3-bar-item w3-button">About Us</a>
       </div>
-    </div>
-    <div class="inline">
-      <h1>Curriculumn/Resources</h1>
-    </div>
+  </div>
+  <div class="inline">
+      <h1>Our Curriculm</h1>
+  </div>
   </header>
   <main>
     <section>
